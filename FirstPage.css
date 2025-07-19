@@ -1,0 +1,302 @@
+* {
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffc2d9;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  font-family: Calibri, sans-serif;
+  padding: 0 15px 80px 15px; /* top right bottom left */
+  background: #fff;
+  color: #4e8bc4; /* deep blue text if needed */
+  margin-bottom: 120px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 0 15px 250px 15px;
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.logo a {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: row-reverse;
+  align-content: space-between;
+  justify-content: center;
+  color: rgb(90, 52, 52);
+  margin-top: 40px; /* was 100px */
+
+  font-size: 35px;
+  font-weight: 600;
+  color: rgb(90, 52, 52);
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+li a {
+  color: rgb(90, 52, 52);
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+button {
+  background-color: #ff6da2;
+  margin-left: 10px;
+  border-radius: 10px;
+  width: 90px;
+}
+button a {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+button:hover {
+  background-color: #ff99be;
+  cursor: pointer;
+}
+.postion {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  align-content: space-between;
+  justify-content: center;
+  text-align: center;
+  text-size-adjust: 30;
+  color: rgb(147, 115, 115);
+  padding-bottom: 40px;
+  margin-top: 40px; /* or even higher */
+}
+
+.tilework {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: row-reverse;
+  align-content: space-between;
+  justify-content: center;
+  color: rgb(90, 52, 52);
+  margin-top: 40px; /* was 100px */
+}
+.des {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: row-reverse;
+  align-content: space-between;
+  justify-content: center;
+  color: rgb(90, 52, 52);
+}
+
+.word {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+h4 {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  position: relative;
+  overflow: hidden;
+  min-height: 250px;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+/* Individual Card Styles */
+.work-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  position: relative;
+  overflow: hidden;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-content {
+  text-align: center;
+  z-index: 1;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #4e8bc4;
+}
+
+.card-description {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.card-placeholder {
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(45deg, #f8f9fa, #e9ecef);
+  border: 2px dashed #dee2e6;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6c757d;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+.all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-direction: column;
+}
+.skillss {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 40px;
+  background: #fff;
+  flex-wrap: wrap;
+}
+
+.skills-left {
+  flex: 1;
+  min-width: 200px;
+}
+
+.skills-left h4 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #4e8bc4;
+}
+
+.skills-right {
+  flex: 2;
+  min-width: 300px;
+}
+
+details {
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px;
+  background: #f9f9f9;
+}
+
+summary {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  list-style: none;
+}
+
+summary::marker {
+  display: none;
+}
+
+summary h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+details[open] {
+  background-color: #e6f2ff;
+}
+
+details p {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+details[open] .arrow {
+  transform: rotate(180deg);
+}
+@media (max-width: 600px) {
+  .card-title {
+    font-size: 1.2rem;
+  }
+  .card-description {
+    font-size: 0.9rem;
+  }
+}
+footer {
+  position: relative;
+  width: 100%;
+  background: black;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+  flex-flow: row wrap;
+  color: white;
+  align-content: flex-start;
+}
+.contact {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  padding: 2rem;
+}
+span {
+  color: #333;
+}
+@media (max-width: 768px) {
+  .navdiv {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
