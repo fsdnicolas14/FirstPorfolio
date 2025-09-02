@@ -9,7 +9,7 @@ function copyEmail(event) {
   navigator.clipboard
     .writeText(email)
     .then(() => {
-      button.textContent = "Copied!";
+      button.textContent = "Copied!!";
       button.style.backgroundColor = "#4CAF50";
 
       setTimeout(() => {
