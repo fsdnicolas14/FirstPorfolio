@@ -379,6 +379,17 @@ header {
 }
 
 /* Skills Section - Fully responsive */
+.section-work {
+  font-size: 3.5rem;
+  font-weight: 700;
+  background: linear-gradient(45deg, #5f4c53, #f39c12);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
 .skills-section {
   background: #ffe9f1;
   padding: clamp(40px, 8vw, 50px) clamp(15px, 5vw, 20px);
